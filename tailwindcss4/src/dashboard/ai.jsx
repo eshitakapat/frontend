@@ -7,8 +7,8 @@ export default function AiChatAssistant() {
 	];
 
 	return (
-		<div className="bg-[#fcf8ee] min-h-screen p-20">
-			<div className="max-w-lg bg-white rounded-xl border border-gray-200 shadow p-7">
+		<div className="bg-[#fcf8ee] min-h-screen p-20 w-full flex flex-col items-center justify-center gap-4">
+			<div className="max-w-lg flex flex-col gap-4 bg-white rounded-xl border border-gray-200 shadow p-7">
 				{/* Header */}
 				<div className="flex items-center gap-2 mb-3 ">
 					<span className="text-lg">🧑‍💻</span>
@@ -33,7 +33,7 @@ export default function AiChatAssistant() {
 					</div>
 				</div>
 				{/* Input Field & Suggestions */}
-				<div className="mt-4">
+				<div className="mt-4 flex flex-col gap-4">
 					<input
 						className="w-full px-3 py-2 border rounded focus:outline-none focus:border-green-500 mb-2"
 						placeholder="Ask about cattle care, breeding, health..."

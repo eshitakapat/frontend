@@ -7,7 +7,7 @@ export default function VoiceAssistant() {
 	];
 
 	return (
-		<div className="bg-[#fcf8ee] min-h-screen p-8">
+		<div className="bg-[#fcf8ee] min-h-screen p-8 w-full flex flex-col items-center justify-center gap-4">
 			{/* Header */}
 			<div className="mb-6">
 				<h1 className="text-2xl font-bold mb-1 p-8">Voice Assistant</h1>
