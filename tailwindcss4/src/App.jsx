@@ -8,12 +8,14 @@ import ProfilePage from "./dashboard/profile";
 import SettingsPage from "./dashboard/settings";
 import UploadPage from "./dashboard/upload";
 import VoicePage from "./dashboard/voice";
+import FormPage from "./components/Login/login";
 
 export default function App() {
 	return (
 		<BrowserRouter>
 			<Layout>
 				<Routes>
+					<Route path="/" element={<FormPage />} />
 					{/* Default redirect: when user opens /dashboard, go to /dashboard/dashboardPage */}
 					<Route
 						path="/dashboard"
